@@ -1,0 +1,81 @@
+*{
+	box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+	width:100%;
+}
+
+#container{
+	border: solid 2px black;
+	
+	
+	width: 100%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	
+	justify-content: space-around;
+	
+	align-content: space-around;
+	
+	
+}
+
+.capaprin{
+		
+	border: 10px solid black;		
+		
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;	
+	
+}
+
+#capa1{
+	background-color:red;
+	width: 90%;
+	height: 10%;
+}
+
+#capa2{
+	background-color:blue;
+	color: white;
+	width: 90%;	
+	height: 10%;	
+}
+
+.contenido{
+	width: 30%;
+	height: 20%;
+	
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;	
+	
+	background-color:green;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
